@@ -1,0 +1,375 @@
+
+html,
+body {
+        
+        font-family: "Open Sans Hebrew",arial,sans-serif;
+          color: #e4a50c;
+}
+
+
+.all{
+    float: right;
+    width:100%;
+    background-image: url(background1.jpg);
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+   
+}
+
+.form-container {
+    background: #e2a50f;
+    background: -webkit-linear-gradient(#fdd976, #e2a105); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fdd976, #e2a105); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fdd976, #e2a105); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fdd976, #e2a105); /* Standard syntax */
+    margin-top: 30px;
+    width:270px;
+    padding: 25px 10px;
+    height: auto;
+    margin-bottom: 25px;
+    float:right;
+    margin-right: -20px;
+}
+
+
+
+.adres {
+    position:relative;
+    text-align: center;
+    color: black;
+    height: 0px;
+    padding-bottom: 0px;
+}
+
+.centers{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding-left: 50px;
+    display: table;
+}
+
+.span10{
+margin: auto;        
+}
+
+.box1{
+    width: 24%;
+    height: 200px;
+    background-image: url(car-1.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    display: inline-table;
+        margin: 5px;
+    
+
+}
+
+.box1:hover{
+    width: 24%;
+    height: 200px;
+    background-image: url(car-1-black.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    display: inline-table;
+    margin: 5px;
+    
+}
+
+
+.box1:hover .texts1 {
+    opacity: 1;
+
+}
+
+
+
+.box2{
+    width: 24%;
+    height: 200px;
+    background-image: url(car-22.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    display: inline-table;
+        margin: 5px;
+
+}
+
+.box2:hover{
+    width: 24%;
+    height: 200px;
+    background-image: url(car-2-black.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    display: inline-table;
+    margin: 5px;
+    
+}
+
+.box2:hover .texts2 {
+    opacity: 1;
+
+}
+
+.box3{
+    width: 24%;
+    height: 200px;
+    background-image: url(car-3.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    display: inline-table;
+        margin:  5px;
+
+
+}
+
+.box3:hover{
+    width: 24%;
+    height: 200px;
+    background-image: url(car-3-black.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    display: inline-table;
+    margin: 5px;
+    
+}
+
+.box3:hover .texts3 {
+    opacity: 1;
+
+}
+.box4{
+    width: 23%;
+    height: 200px;
+    background-image: url(car-4.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    display: inline-table;
+    margin: 5px;
+    
+}
+
+.box4:hover{
+    width: 23%;
+    height: 200px;
+    background-image: url(car-4-black.jpg);
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    display: inline-table;
+    margin: 5px;
+    
+}
+
+.box4:hover .texts4 {
+    opacity: 1;
+
+}
+
+.mobslide
+{
+    
+position: relative;
+    
+margin-right: -3%;
+}
+input.form-control,textarea.form-control {
+    background-color: white;
+    color: #333;
+    border-radius: 0;
+    border: 0px solid black;
+    font-size: 18px;
+/*    width:200px;*/
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.w3-container{
+    height: 0px;
+    width: 0px;
+}
+
+button.btn.btn-default {
+    background-color: black;
+    color: #e2a50f;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    border: none;
+    width: 30%;
+}
+
+.contact-top-mob{
+    float: left;
+    position: relative;
+    left: 0px;
+    top:0px;
+    font-size: 10px;
+}
+
+.contact-top {
+    float: right;
+text-align: center;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+
+.col-xs-12 {
+    padding-right: -5px!important;
+}
+.col-lg-3 {
+}
+
+.containerr-fluid{
+    width: 80%!important;
+    margin-right: 12%;
+}
+
+.container-right {
+}
+
+.container-left {
+    float:left!important; 
+}
+
+.container-low {
+    width: 95%;
+    height: auto;
+    overflow: hidden;
+    background-color: black;
+    
+
+}
+
+.bodi {
+    height: 100%;
+}
+
+.texts1 {
+    font-weight: bolder;
+/*    font-family: sans-serif;*/
+    color: white;
+    font-size: 15px;
+    text-align: center;
+        opacity: 0;
+
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+.texts2 {
+    font-weight: bolder;
+/*    font-family: sans-serif;*/
+    color: white;
+    font-size: 15px;
+    text-align: center;
+        opacity: 0;
+transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    
+}
+.texts3 {
+    font-weight: bolder;
+/*    font-family: sans-serif;*/
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    
+}
+.texts4 {
+    font-weight: bolder;
+/*    font-family: sans-serif;*/
+    color: white;
+    font-size: 15px;
+    text-align: center;
+        opacity: 0;
+transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    position: relative;
+ 
+}
+
+
+
+.container-midlow {
+    width: 90%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 0.96em;
+    margin-right: 2.5%;
+    
+}
+
+li {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.fly{
+    
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+.col-lg-12 ,.col-xs-12 ,.col-md-3 ,.col-lg-3 ,.col-md-6 ,.col-lg-6{
+     padding-right: 0px!important; 
+     padding-left: 0px!important;     
+}
+
+ul {
+    margin-right: -22px;
+}
+
+.logo-mob{
+    margin: auto!important;
+    width: 40%;
+}
+.heading-mob{
+    margin: auto!important;
+text-align: center;}
+
+
+@media screen and (max-width: 640px) 
+{
+    .col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+        text-align: center;
+        float: right;
+        width: 100%;
+    }
+    
+    .mobslide.hidden-lg.hidden-md {
+        float: right;
+        width: 100%;
+    }
+    
+    .all
+    {
+        background: black !important;
+    }
+    
+    .form-container{width:100%;}
+}
